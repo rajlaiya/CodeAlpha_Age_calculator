@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Age Calculator</title>
+  <link rel="stylesheet" href="indexage.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo"><img src="https://t3.ftcdn.net/jpg/06/74/46/74/240_F_674467470_7oYFyZ72Si7X9M6cgBisRnPUHbFMlLnk.jpg" alt="Logo"></div>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#" id="refresh">Refresh</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="section">
+    <div class="overlay">
+      <h2>Welcome to Age Calculator</h2>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <h3>About Age Calculator</h3>
+    <p>Welcome to the Age Calculator, your ultimate tool for quickly and accurately determining your age in various time units. Whether you need to know your age in seconds, minutes, hours, days, weeks, months, or years, our calculator provides a precise answer in an instant. Designed for simplicity and efficiency, our tool is perfect for users of all ages. Discover fascinating insights about your age and share the results effortlessly with our PDF download feature. Join thousands of satisfied users who trust the Age Calculator for its speed, accuracy, and user-friendly interface.</p>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="section">
+    <h2>Features & Services</h2>
+    <div class="card-container">
+      <div class="card">
+        <img src="https://calcy24.com/storage/2024/05/1afda612-948f-457f-a512-364a9ed5f598-860x491.png" alt="Feature 1">
+        <h3>Accurate Age Calculation</h3>
+      </div>
+      <div class="card">
+        <img src="https://i0.wp.com/regionalopportunityinc.org/src-content/uploads/2021/06/Speed-Test-Website-Header-01.png?fit=1000%2C670&ssl=1.jpg" alt="Feature 2">
+        <h3>Fast Calculation</h3>
+      </div>
+      <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwVNMJYaObzxFs-5lZXCwQX2MWF_OOVbG8lA&s.jpg" alt="Feature 3">
+        <h3>Time Saving</h3>
+        <p>This age calculator saves you time by instantly calculating your age in years, months, and days. No more manual calculations or complex formulas, simply enter your birthdate and get accurate results in seconds. </p>
+      </div>
+      <div class="card">
+        <img src="https://wpsstrapicms.cache.wpscdn.com/21_63b57ac49b.png" alt="Feature 5">
+        <h3>Share with PDF</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- Age Calculator Section -->
+  <section id="calculator" class="section">
+    <h2>Age Calculator</h2>
+    <form id="ageCalculatorForm">
+      <label for="dob">Enter your date of birth:</label>
+      <input type="date" id="dob" name="dob" required>
+      <button type="submit">Calculate Age</button>
+    </form>
+    <div id="ageResult"></div>
+    <button id="downloadPdf">Download as PDF</button>
+  </section>
+
+  <!-- Users Counter Section -->
+  <section id="counter" class="section">
+    <h2>Total Visitor Count</h2>
+    <div id="userCounter">0</div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-column">
+      <h3>Navigation</h3>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#terms">Terms and Conditions</a></li>
+        <li><a href="#features">Services</a></li>
+        <li><a href="#home">Inspired By</a></li>
+      </ul>
+    </div>
+    <div class="footer-column">
+      <h3>Contact</h3>
+      <p>Email: <a href="mailto:rajlaiya2017@gmail.com">rajlaiya2017@gmail.com</a></p>
+      <p>Phone: <a href="tel:+916355705208">+91 6355705208</a></p>
+    </div>
+    <div class="footer-column">
+      <h3>Follow Us</h3>
+      <a href="https://www.linkedin.com/in/raj-laiya"><img src="https://cdn-icons-png.flaticon.com/512/61/61109.png" alt="LinkedIn"></a>
+      <a href="https://github.com/rajlaiya?tab=repositories"><img src="https://pngimg.com/uploads/github/github_PNG83.png" alt="GitHub"></a>
+      <a href="https://codepen.io"><img src="https://pbs.twimg.com/profile_images/923214541290221569/dCMZxkwz_400x400.jpg" alt="CodePen"></a>
+    </div>
+  </footer>
+
+  <script src="indexage.js"></script>
+</body>
+</html>
